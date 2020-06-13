@@ -12,6 +12,7 @@
     #nav1{
         float: left;
         width:100%;
+        display: block;
         text-align:center;
         font-size:40px;
         padding:20px 0px 20px 0;
