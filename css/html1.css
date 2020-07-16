@@ -1,0 +1,41 @@
+.head {
+                background: #070302;
+                }
+            nav{
+                float: left;
+                width: 15%;
+                background: black;
+                position: fixed;
+                padding-top: 30px;
+            }
+            nav a{
+                display: block;
+                color: white;
+                font-size: 25px;
+                font-family: monospace;
+                padding: 0 2px 2px 0;
+
+                }
+            nav a:hover{
+                background: white;
+                color: black;
+                }
+            article{
+                float: left;
+                background: black;
+                border-color: 20px white;
+                width: 100%;
+                text-align: center;
+                box-shadow: 2px 2px white;
+                }
+            h2{
+                padding: 30px 20px;
+                color: white;
+                }
+            .video{
+                margin-left: 15%;
+                width: 74%;
+                border-style: solid;
+                border-color: white;
+                margin-bottom: 20px;
+                }
