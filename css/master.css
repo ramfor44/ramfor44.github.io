@@ -1,5 +1,5 @@
    
- #body{
+#body{
         background-color:#646467;
         font-family: Arial, Helvetica, sans-serif;
         margin:0;
@@ -27,9 +27,11 @@
         color: #252535;
         }
     #img1-ram{
-        border-radius: 300px;
-        margin: 50px 0 50px 20px;
-
+        box-shadow: 0px 2px 10px 2px white;
+        margin : 40px 0 0 0;
+        }
+    .image1{
+        text-align: center;
         }
     .block{
         background: #252535;
@@ -54,6 +56,7 @@
         text-align:center;
         font-size: 20px;
         padding-top:10px;
+        font-family:monospace;
         }
     .blk1{
         width:60%;
