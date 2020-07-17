@@ -36,3 +36,23 @@
                 padding: 50px;
 
                 }
+             button{
+                background: black;
+                color: white;
+                font-family: monospace;
+                font-size: 30px;
+                width: 59%;
+                }
+            textarea{
+                background: black;
+                color: white;
+                border-style:solid;
+                border-color: black;
+                }
+            p{
+                font-size: 20px;
+                font-weight: 20px;
+                font-family: sans-serif;
+                text-align: center;
+                color: white;
+                }
