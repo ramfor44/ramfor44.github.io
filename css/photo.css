@@ -1,0 +1,38 @@
+#tab{
+            background: #f20d0d;
+            color:white;
+            height:100px;
+            padding-top:10px;
+            box-shadow:8px 8px 20px black;
+        }
+        p{
+            font-family:Comic Sans MS;
+            font-size:50px;
+            text-shadow:2px 2px 15px #990000;
+            color:	#ffe6e6;
+            font-weight:bold;
+            }
+        #logo{
+            height:80px;
+            text-align:center;
+            box-shadow:2px 2px 5px black;
+            }
+        .pic1{
+            height:550px;
+            border-radius:20px;
+            margin-top:40px;
+            box-shadow:2px 2px 10px black;
+            }
+        #pic{
+            text-align:center;
+            }
+        body{
+            background:	#ffe6e6;
+            }
+        footer{
+            background: #f20d0d;
+            color:white;
+            height:100px;
+            padding-top:10px;
+            box-shadow:5px 5px 20px black;
+        }
