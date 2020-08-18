@@ -2,50 +2,244 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ramkumar's Portal</title>
-    <link rel="stylesheet" href="css/photo.css">
-    
+    <title>Ram is alone!</title>
+    <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <meta name="name" content="Ramkumar's Portal">
+    <style>
+        body{
+
+            }
+        .main{
+            background-image:url("snow.jpg");
+            background-size:cover;
+            animation-name:changer;
+            animation-duration:5s;
+            height:650px;
+            border-bottom-right-radius:300px;
+            box-shadow:0 8px 5px #313131;
+            }
+        .img-main{
+            text-align:center;
+            padding-top:60px;
+            }
+        .img-shape{
+            border-radius:60%;
+            box-shadow:0 5px 5px white;
+            }
+        nav{
+            height:100px;
+            }
+        ul{
+            list-style:none;
+            float:right;
+            
+            }
+        ul li{
+            color:#defff4;
+            float:left;
+            margin:20px 30px 0 10px;
+            font-size:30px;
+            font-family:monospace;
+            font-weight:bold;
+            letter-spacing:10px;
+
+            }
+        .name{
+            text-align:center;
+            padding:20px;
+            }
+        h2{
+            color:#defff4;
+            font-size:50px;
+            font-family:san-serif;
+            font-weight:bold;
+            text-shadow:5px 5px 2px #424242;
+            letter-spacing:10px;
+            padding-top:20px;
+            }
+        h2:hover{
+
+            }
+        ul li:hover{
+            background:#313131;
+            color:#defff4;
+            padding:10px;
+            border-radius:50px;
+            }
+        @keyframes changer{
+            from{background-image:url("bit.jpg");}
+            to {background-image:url("snow.jpg");}
+            }
+        h1{
+            font-weight:bold;
+            text-align:center;
+            padding-top:50px;
+            color:#313131;
+            text-shadow:0px 5px 5px #defff4;
+            }
+        p{
+            font-family:monospace;
+            color:#313131;
+            text-shadow:2px 5px 5px #defff4;
+            text-align:center;
+            font-size:25px;
+            font-weight:bold;
+            padding-top:20px;
+
+            }
+        #about{
+            border-style:solid;
+            margin-left:300px;
+            margin-right:300px;
+            border-radius:12px;
+            background:white;
+            text-align:center;
+            box-shadow:5px 5px 5px black;
+            }
+        h6{
+            font-size:20px;
+            font-weight:bold;
+            text-shadow:1px 2px 4px ;
+            padding:10px;
+            }
+        #im{
+            text-align:center;
+            }
+        img{
+            border:5px solid black;
+            border-radius:10px;
+            box-shadow:5px 5px 5px black;
+            }
+        #img{
+            background-size:contain;
+            }
+        h5{
+            text-align:left;
+            font-size:120px;
+            padding:140px;
+            }
+        #id{
+            margin:50px;
+            }
+        #pro{
+            background:url("party.jpg");
+            background-size:contain;
+            height:300px;
+            }
+        h4{
+            font-size:80px;
+            padding:100px;
+            color:white;
+            text-align:center;
+            text-shadow:5px 5px 5px black;
+            }
+        button{
+            border:10px solid green;
+            border-radius:10px;
+            font-size:36px;
+            color:green;
+            font-weight:bold;
+            padding:12px;
+            width:30%;
+            }
+        button:hover{
+            background:green;
+            color:white;
+            border:10px solid white;
+            border-radius:5px;
+        }
+        #contact{
+            background-image:url("pro1.jpg");
+            background-size:contain;
+            height:200px;
+            border:3px solid black;
+            }
+        h3{
+            text-align:center;
+            font-size:49px;
+            padding:20px 20px;
+            font-weight:bold;
+            color:white;
+            text-shadow:0px 5px 5px black;
+            }
+        #con{
+            font-size:40px;
+            letter-spacing:10px;
+            color:white;
+            text-align:center;
+            }
+        ol{
+          list-style:none;
+          margin-left:600px;
+          }
+        ol li{
+            float:left;
+            text-align:center;
+            font-size:30px;
+            padding:20px;
+            }
+        i{
+            color:black;
+            }
+        i:hover{
+            color:green;
+            }
+        a{
+            color:white;
+            text-decoration:none;
+            }
+        a:hover{
+            color:green;
+            text-decoration:none;
+    </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row"  id="tab">
-            <div class="col-sm-1"><img id="logo" class="rounded-circle" src="/images/ram.jpg"></div>
-            <div class="col-sm-11"><p style="text-align:left;">Gallery</p></div>
+    <div class="main">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+        <div class="img-main"><img class="img-shape" src="ram.jpg"></div>
+        <div class="name"><h2>RAMKUMAR</h2></div>
+    </div>
+    <p>
+        <div><h1>About Me</h1></div>
+        <p><em>"Life is what happens when you're busy making others plans."</em></p>
+        <div id="about">
+            <h6>Niligiris ,Tamilnadu ,India</h6>
+            <h6>Love to know new things and have a deep eye on particular concept...</h6>
+            <h6>Interested in Electronics and Designing</h6>
+        </div><br><br><br>
+        <div id="pro">
+            <h4>Portfolio</h4>
         </div>
-        <div class="bd">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho1.jpg"></div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho2.jpg"></div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho3.jpg"></div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho4.jpg"></div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho5.jpg"></div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="pic"><img class="pic1" src="/images/pho6.jpg"></div>
-                </div>
-
-            </div>
-
-
+        <div id="id" class="row">
+            <div id="im" class="col-xl-4"><img id="img" src="ram2.jpg" width="300" height="500"></div>
+            <div id="im" class="col-xl-4"><img id="img"src="123.jpg" width="300" height="400"></div>
+            <div id="im" class="col-xl-4"><img id="img" src="ram3.jpg" width="300" height="500"></div>
         </div>
-    </div><br>
-    <footer>
-                <p style="font-family:monospace;font-size:20px;text-align:center;padding-top:20px;">Powered by Ramkumar 2020</p>
-            </footer>
+        <div>
+            <p style="text-align:center"><button>Friends Circle</button></p>
+        </div>
+        <div id="contact">
+            <h3>Contact</h3>
+            <h3 id="con">Email:  <a href="mailto: vramkumarind@gmail.com">Mail me</a></h3>
+        </div>
+        <div>
+           <ol>
+               <li><a href="https://twitter.com/Ramkuma61398718" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+               <li><a href="https://www.facebook.com/profile.php?id=100054308955937" target="_blank"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.instagram.com/incredible_pop/" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+           </ol><br><br><br>
+            <div>
+                <p>Powered by Ramkumar 2020</p>
+            </div>
+        </div>
+
+
 </body>
 </html>
