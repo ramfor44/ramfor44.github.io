@@ -1,60 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<header>
-    <title>Ramkumar's Portal</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Ram is alone!</title>
     <link rel="stylesheet" href="css/master.css">
+    <meta name="viewport" content="widht=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <meta name="name" content="Ramkumar's Portal">
+    <style>
+        body{
+            width:100%;
+            }
+        .main{
+            background-image:url("snow.jpg");
+            background-size:cover;
+            animation-name:changer;
+            animation-duration:5s;
+            height:650px;
+            border-bottom-right-radius:300px;
+            box-shadow:0 8px 5px #313131;
+            padding-top:80px;
+            }
+        .img-main{
+            text-align:center;
+            padding-top:60px;
+            }
+        .img-shape{
+            border-radius:60%;
+            box-shadow:0 5px 5px white;
+            }
+        nav{
+            height:100px;
+            background-color:#00008B;
+            position:fixed;
+            width:100%;
+            box-shadow:2px 2px 5px white;
+            }
+        ul{
+            list-style:none;
+            float:right;
+            }
+        ul li{
+            color:#defff4;
+            float:left;
+            margin:20px 30px 0 10px;
+            font-size:30px;
+            font-family:monospace;
+            font-weight:bold;
+            letter-spacing:10px;
 
-</header>
-<body id="body" class="container-fluid">
+            }
+        .name{
+            text-align:center;
+            padding:20px;
+            }
+        h2{
+            color:#defff4;
+            font-size:50px;
+            font-family:san-serif;
+            font-weight:bold;
+            text-shadow:5px 5px 2px #424242;
+            letter-spacing:10px;
+            padding-top:20px;
+            }
+        h2:hover{
 
-    <nav id="nav">
-        <div  class="row">
-            <div class="col"><a href="https://www.freecodecamp.org/ram3002966" target="_blank"><li id="nav1" class="fa fa-free-code-camp" ></li></a></div>
-            <div class="col"><a href="bettle.html" target="_blank"><li id="nav1" class="fa fa-thumbs-o-up"></li></a></div>
-            <div class="col"><a href="https://www.instagram.com/incredible_pop/" target="_blank"><li id="nav1" class="fa fa-instagram"></li></a></div>
-            <div class="col"><a href="mailto: ramfor44@gmail.com" target="_blank"><li id="nav1" class="fa fa-envelope"></li></a></div>
-            </div>
+            }
+        ul li:hover{
+            background:#313131;
+            color:#defff4;
+            padding:10px;
+            border-radius:50px;
+            }
+        @keyframes changer{
+            from{background-image:url("bit.jpg");}
+            to {background-image:url("snow.jpg");}
+            }
+        h1{
+            font-weight:bold;
+            text-align:center;
+            padding-top:50px;
+            color:#313131;
+            text-shadow:0px 5px 5px #defff4;
+            }
+        p{
+            font-family:monospace;
+            color:#313131;
+            text-shadow:2px 5px 5px #defff4;
+            text-align:center;
+            font-size:25px;
+            font-weight:bold;
+            padding-top:20px;
+
+            }
+        #about{
+            border-style:solid;
+            margin-left:300px;
+            margin-right:300px;
+            border-radius:12px;
+            background:white;
+            text-align:center;
+            box-shadow:5px 5px 5px black;
+            }
+        h6{
+            font-size:20px;
+            font-weight:bold;
+            text-shadow:1px 2px 4px ;
+            padding:10px;
+            }
+        #im{
+            text-align:center;
+            }
+        img{
+
+            }
+        #img{
+            background-size:contain;
+            margin:20px;
+            box-shadow:4px 2px 10px black;
+            }
+        h5{
+            text-align:left;
+            font-size:120px;
+            padding:140px;
+            }
+        #id{
+            margin:50px;
+            }
+        #pro{
+            background:url("party.jpg");
+            background-size:contain;
+            height:300px;
+            }
+        h4{
+            font-size:80px;
+            padding:100px;
+            color:white;
+            text-align:center;
+            text-shadow:5px 5px 5px black;
+            }
+        button{
+            border:10px solid green;
+            border-radius:10px;
+            font-size:36px;
+            color:green;
+            font-weight:bold;
+            padding:12px;
+            width:30%;
+            }
+        button:hover{
+            background:green;
+            color:white;
+            border:10px solid white;
+            border-radius:5px;
+        }
+        #contact{
+            background-image:url("pro1.jpg");
+            background-size:contain;
+            height:200px;
+            border:3px solid black;
+            }
+        h3{
+            text-align:center;
+            font-size:49px;
+            padding:20px 20px;
+            font-weight:bold;
+            color:white;
+            text-shadow:0px 5px 5px black;
+            }
+        #con{
+            font-size:40px;
+            letter-spacing:10px;
+            color:white;
+            text-align:center;
+            }
+        ol{
+           list-style:none;
+           background-color:white;
+           float:right;
+           text-align:center;
+           width:75%;
+          }
+        ol li{
+            float:left;
+            font-size:30px;
+            padding:20px;
+            }
+        ol li a{
+            text-align:center;
+            }
+        i{
+            color:black;
+            text-align:center;
+            }
+        i:hover{
+            color:green;
+            }
+        a{
+            color:white;
+            text-decoration:none;
+            }
+        a:hover{
+            color:green;
+            text-decoration:none;
+            }
+        #dd{
+            text-align:center;
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#c3"><li >Home</li></a>
+            <a href="#c2"><li >About</li></a>
+            <a href="#contact"><li >Contact</li></a>
+        </ul>
     </nav>
-        <div class="block">
-                <div class="image1"><img id="img1-ram" style="width:200px" src="/images/ram.jpg"></div>
-                <div >
-                    <h1 style="color:white;text-shadow:2px 2px 5px green;font-size:50px;margin-top:20px; text-align:center; font-family:cursive"><i>Ramkumar</i></h1>
-                    <p style="color:white; text-align:center; font-size:20px; font-family:monospace"><em>- Humans creates and secure the Technology
-                        but animals and plants creates and secures our planet, so don't destory them.
-                        Humans have capability to learn anythings and produce in the real world with more
-                        efficient and creative.And here is my channel to gain your knowledge in your
-                        respective fields(<a href="https://www.youtube.com/channel/UCVtoTxGa2Y_DUjFTBUJ3vqQ">#beetle Channel</a>)</em></i>
-                </div>
-        </div>
-        <div class="block1">
-            <h2 style="text-align:center; margin-top:3px;font-size:40px;font-family:aerial;color:white;text-shadow:2px 2px 10px red; ">Personal Details</h2>
-            <p><i>Coimbatore, TamilNadu</i></p>
-            <p><i>Studying B.E(ECE) at Nehru Institute of Engineering and Technology</i></p>
-            <p><i>"Web Designer"</i></p>
-            <h2>Photos</h2>
-            <p>Lovely pics with my spacious friends....</p>
-            <a href=""><button>View</button></a>
-            <h2>Projects</h2>
-            <p>Projects that you inspire!</p>
-            <button>See my projects</button><br><br>
-        </div>
-        <div class="block2">
-            <h2>Certifications</h2>
-            <div id="cert1" class="row">
-                <div class="col-md-8"><h5 class="cert01"><i>Responsive Web Design</i></h5></div>
-                <div class="col-md-4"><a href="https://www.freecodecamp.org/certification/ram3002966/responsive-web-design" target="_blank"><button style="width:40%;hegith:30%" class="cert01"><i style="color:#252535">Veiw</i></button></a></div>
-            </div>
-            <div id="cert1" class="row">
-                <div class="col-md-8"><h5 class="cert01"><i>Bulid a Portfolio using HTML5 and CSS3</i></h5></div>
-                <div class="col-md-4"><a href="https://www.coursera.org/account/accomplishments/records/S5LYW2UP85PK" target="_blank"><button style="width:40%;hegith:30%" class="cert01"><i style="color:#252535">Veiw</i></button></a></div>
-        </div>
-        <footer class="block3">
-            <p><em>Powered by Ramkumar 2020</em></p>
-        </footer>
+    <div class="main" id="c3">
 
+        <div class="img-main"><img class="img-shape" src="ram.jpg"></div>
+        <div class="name"><h2>RAMKUMAR</h2></div>
     </div>
+    <p>
+        <div id="c2"><h1>About Me</h1></div>
+        <p><em>"Life is what happens when you're busy making others plans."</em></p>
+        <div id="about">
+            <h6>Niligiris ,Tamilnadu ,India</h6>
+            <h6>Love to know new things and have a deep eye on particular concept...</h6>
+            <h6>Interested in Electronics and Designing</h6>
+        </div><br><br><br>
+        <div id="pro">
+            <h4>Portfolio</h4>
+        </div>
+        <div id="id" class="row">
+            <div id="im" class="col-xl-"><img id="img" src="ram2.jpg" width="300" height="500"></div>
+            <div id="im" class="col-xl-"><img id="img" src="pic6.jpg" width="350" height="550"></div>
+            <div id="im" class="col-xl-"><img id="img"src="pic3.jpg" width="300" height="600"></div>
+            <div id="im" class="col-xl-"><img id="img" src="pic1.jpg" width="300" height="700"></div>
+        </div>
+        <div>
+            <p style="text-align:center"><button>Friends Circle</button></p>
+        </div>
+        <div id="contact">
+            <h3>Contact</h3>
+            <h3 id="con">Email:  <a href="mailto: vramkumarind@gmail.com">Mail me</a></h3>
+        </div>
+        <div class="row">
+           <ol>
+               <li><a href="https://twitter.com/Ramkuma61398718" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+               <li><a href="https://www.facebook.com/profile.php?id=100054308955937" target="_blank"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.instagram.com/incredible_pop/" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+
+           </ol>
+            <p id="dd">Powered by Ramkumar 2020</p>
+        </div>
+        <div>
+
+            </div>
+
 </body>
 </html>
