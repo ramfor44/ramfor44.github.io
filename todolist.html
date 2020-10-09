@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do-list</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="css/todolist.css">
+</head>
+<body ng-app="myapp" ng-controller="myctrl">
+    <div id="contain">
+        <h1>Shopping List</h1>
+        <ul>
+            <li ng-repeat="x in products">{{x}}<span ng-click="removeitem($index)">&times;</span></li>
+        </ul>
+        <h1><input ng-model="addme" placeholder="Enter the product...">
+            <button ng-click="additem()">Add</button></h1>
+    </div>
+    <script>
+        var app = angular.module("myapp",[]);
+        app.controller("myctrl",function($scope){
+            $scope.products = ["Milk","Bread","Cheese"];
+            $scope.additem = function(){
+                $scope.products.push($scope.addme);
+                }
+            $scope.removeitem = function(x){
+                $scope.products.splice(x,1);
+                }
+                });
+    </script>
+</body>
+</html>
