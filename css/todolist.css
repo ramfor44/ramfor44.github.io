@@ -6,6 +6,8 @@
             border-radius:20px;
             box-shadow:1px 1px 2px 2px grey;
             font-family:monospace;
+                margin:0 auto;
+                padding:0;
             }
         h1{
             font-size:50px;
@@ -36,7 +38,6 @@
             border-radius:20px;
             }
         input{
-            min-width:250px;
             max-width:450px;
             height:30px;
             border-radius:10px;
