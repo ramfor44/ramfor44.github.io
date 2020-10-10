@@ -13,8 +13,8 @@
         <ul>
             <li ng-repeat="x in products">{{x}}<span ng-click="removeitem($index)">&times;</span></li>
         </ul>
-        <h1><input ng-model="addme" placeholder="Enter the product...">
-            <button ng-click="additem()">Add</button></h1>
+        <h2><input ng-model="addme" placeholder="Enter the product...">
+            <button ng-click="additem()">Add</button></h2>
     </div>
     <script>
         var app = angular.module("myapp",[]);
