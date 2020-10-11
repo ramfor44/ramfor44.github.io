@@ -2,278 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ram is Alone!</title>
-    <link rel="stylesheet" href="css/master.css">
+    <title>Here is Ramkumar...</title>
+    <link rel="icon" href="images/falls.png" type="image/icon type">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <style>
-        body{
-            width:100%;
-            }
-        .main{
-            background-image:url("snow.jpg");
-            background-size:cover;
-            animation-name:changer;
-            animation-duration:5s;
-            height:650px;
-            border-bottom-right-radius:300px;
-            box-shadow:0 8px 5px #313131;
-            padding-top:80px;
-            }
-        .img-main{
-            text-align:center;
-            padding-top:60px;
-            }
-        .img-shape{
-            border-radius:60%;
-            box-shadow:0 5px 5px white;
-            }
-        nav{
-            height:80px;
-            background-color:white;
-            position:fixed;
-            width:100%;
-            }
-        ul{
-            list-style:none;
-            float:right;
-            }
-        ul li{
-            color:black;
-            float:left;
-            margin:20px 30px 0 10px;
-            font-size:20px;
-            font-family:monospace;
-            font-weight:bold;
-            letter-spacing:5px;
-
-            }
-        .name{
-            text-align:center;
-            padding:20px;
-            }
-        h2{
-            color:#defff4;
-            font-size:50px;
-            font-family:san-serif;
-            font-weight:bold;
-            text-shadow:5px 5px 2px #424242;
-            letter-spacing:10px;
-            padding-top:20px;
-            }
-        h2:hover{
-
-            }
-        ul li:hover{
-            background:#313131;
-            color:#defff4;
-            padding:10px;
-            border-radius:50px;
-            }
-        @keyframes changer{
-            from{background-image:url("bit.jpg");}
-            to {background-image:url("snow.jpg");}
-            }
-        h1{
-            font-weight:bold;
-            text-align:center;
-            padding-top:50px;
-            color:#313131;
-            text-shadow:0px 5px 5px #defff4;
-            }
-        p{
-            font-family:monospace;
-            color:#313131;
-            text-shadow:2px 5px 5px #defff4;
-            text-align:center;
-            font-size:25px;
-            font-weight:bold;
-            padding-top:20px;
-
-            }
-        #about{
-            border-style:solid;
-            margin-left:300px;
-            margin-right:300px;
-            border-radius:12px;
-            background:white;
-            text-align:center;
-            box-shadow:5px 5px 5px black;
-            }
-        h6{
-            font-size:20px;
-            font-weight:bold;
-            text-shadow:1px 2px 4px ;
-            padding:10px;
-            }
-        #im{
-            text-align:center;
-            width:40%;
-            }
-        img{
-
-            }
-        #img{
-            margin:20px;
-            box-shadow:4px 2px 10px black;
-            text-align:center;
-            }
-        h5{
-            text-align:left;
-            font-size:120px;
-            padding:140px;
-            }
-        #id{
-            margin:50px;
-            ;
-            }
-        #pro{
-            background:url("party.jpg");
-            background-size:contain;
-            height:300px;
-            }
-        h4{
-            font-size:80px;
-            padding:100px;
-            color:white;
-            text-align:center;
-            text-shadow:5px 5px 5px black;
-            }
-        button{
-            border:10px solid black;
-            border-radius:10px;
-            font-size:36px;
-            color:black;
-            font-weight:bold;
-            padding:12px;
-            width:50%;
-            }
-        button:hover{
-            background:black;
-            color:white;
-            border:10px solid white;
-            border-radius:5px;
-        }
-        #contact{
-            background-image:url("pro1.jpg");
-            background-size:contain;
-            height:200px;
-            border:3px solid black;
-            }
-        h3{
-            text-align:center;
-            font-size:49px;
-            padding:20px 20px;
-            font-weight:bold;
-            color:white;
-            text-shadow:0px 5px 5px black;
-            }
-        #con{
-            font-size:40px;
-            letter-spacing:10px;
-            color:white;
-            text-align:center;
-            }
-        ol{
-           list-style:none;
-           background-color:white;
-           text-align:center;
-           width:75%;
-           padding-top:20px;
-           padding-left:650px;
-          }
-        ol li{
-            float:left;
-            font-size:30px;
-            padding-left:40px;
-            }
-        ol li a{
-            text-align:center;
-            }
-        i{
-            color:black;
-            text-align:center;
-            }
-        i:hover{
-            color:green;
-            }
-        a{
-            color:white;
-            text-decoration:none;
-            }
-        a:hover{
-            color:green;
-            text-decoration:none;
-            }
-        #dd{
-            text-align:center;
-            }
-        #low{
-            font-size:25px;
-            text-align:left;
-            font-style:monospace;
-            }
-    </style>
+    
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="#c3"><li >Home</li></a>
-            <a href="#c2"><li >About</li></a>
-            <a href="#contact"><li >Contact</li></a>
-            
-            <a href="project.html"><li>Projects</li></a>
-        </ul>
+    <nav id="myTopnav" class="topnav">
+        <a>Home</a>
+        <a href="#f-portfolio">Portfolio</a>
+        <a href="#f-contact">Contact</a>
+        <a href="project.html" target="_blank">Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </nav>
-    <div class="main" id="c3">
-
-        <div class="img-main"><img class="img-shape" src="ram.jpg"></div>
-        <div class="name" id="c2"><h2>RAMKUMAR</h2></div>
+    <div class="head">
+         <div id="image"><img id="profile-img" src="images/ram.jpg"></div>
+        <h1>Ramkumar</h1>
     </div>
-    <p>
-        <div ><h1>About Me</h1></div>
+    <div id="About-me">
+        <h2>About Me</h2>
         <p><em>"Life is what happens when you're busy making others plans."</em></p>
-        <div id="about">
-            <h6>Niligiris ,Tamilnadu ,India</h6>
-            <h6>Love to know new things and have a deep eye on particular concept...</h6>
-            <h6>Interested in Electronics and Designing</h6>
-        </div><br><br><br>
-        <div id="pro">
-            <h4>Portfolio</h4>
-        </div>
-        <div id="id" class="row">
-                <div class="col-xl-4"><img id="img" src="Ram2.jpg" width="300" height="500"></div>
-                <div class="col-xl-8"><p id="low">I'm a person who is so sensitive and have dignity to help anyone. Studying at Nehru Institute of
-                Engineering and Technology, Coimbatore, Tamilnadu, India in the department of Electronics and Communication
-                    Engineering(2017-2021). Love to have a daily updates in current Technology
-                    and have patience to hear and take up friends suggestions.
-                I am interested in playing carrom the most and love to watch sports especially cricket.
-                Passion in web designing and involving in latest electronics projects both in hardware and software and if you need
-                to contact me regrading technical project just feel free to Mail me and there by i have given below my
-                    contact details.<br>
-                <br>
-                    <p><i>"Just try something what you love instead of sitting simply"</i></p></p></div>
+        <hr>
+        <h3>Born on August 16,1999.</h3>
+        <h3>Lives at Gudalur.</h3>
+        <h3>Interested in Electronics and Web design.</h3>
+    </div>
+    <div  id="f-portfolio" class="port">
+        <h4 style="color:white;">Portfolio</h4>
+    </div>
+    <div class="img-main"><img src="images/Ram2.jpg" id="main" width="20%"></div>
 
-        </div>
-        <div>
-            <p style="text-align:center"><a href="https://www.youtube.com/channel/UCVtoTxGa2Y_DUjFTBUJ3vqQ?view_as=subscriber"
-                                            target="_blank"><button><i class="fa fa-youtube-play" style="font-size:40px;color:red"></i>
-                coding jr</button></a></p><br>
-            <p style="text-align:center"><a href=""
-                                            target="_blank"><i class='fa fa-dot-circle-o' style='font-size:50px;color:black'></i></a></p>
-        </div>
-        <div id="contact">
-            <h3>Contact</h3>
-            <h3 id="con">Email:  <a href="mailto: vramkumarind@gmail.com">Mail me</a></h3>
-        </div>
-        <div class="row">
-           <ol>
-               <li><a href="https://twitter.com/Ramkuma61398718" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-               <li><a href="https://www.facebook.com/profile.php?id=100054308955937" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-               <li><a href="https://www.instagram.com/ramkumar_tamilan/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-           </ol>
-        </div>
-        <p>Powered by Ramkumar 2020</p>
+    <div>
+        <h5>I'm a person who have a dignity to help anyone.
+            Studying at Nehru Institute of Engineering and Technology, Coimbatore,
+            Tamilnadu, India in the department of Electronics and Communication Engineering(2017-2021).
+            Love to have a daily updates in current Technology and have patience to hear and take up
+            friends suggestions. Passionated in web designing and involving in latest electronics projects
+            both in hardware and software and if you need to contact me regrading technical project
+            just feel free to Mail me.
+        </h5>
+        <hr>
+        <p><em>"Do something new and make everyone happy"</em></p>
+    </div>
+    <div id="f-contact" class="contact">
+        <a href="mailto: vramkumarind@gmail.com;"><button>Mail me</button></a>
+    </div>
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=100054308955937" target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/ramkumar_tamilan/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/Ramkuma61398718" target="_blank"><i class="fa fa-twitter-square"></i></a></div>
+        <h5 style="color:white;">Powered by Ramkumar 2020</h5>
+    </footer>
 
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
-</html>
+
