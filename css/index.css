@@ -1,12 +1,12 @@
 <style>
-        body{
-            margin:0 auto;
-            padding:0;
-            }
         .topnav{
             overflow:hidden;
             background:#3D3C3A;
             box-shadow:1px 5px 5px black;
+            }
+         body{
+            margin:0 auto;
+            padding:0;
             }
         .topnav a{
             float:left;
