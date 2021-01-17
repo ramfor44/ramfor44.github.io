@@ -1,10 +1,14 @@
-{
-	"projects" : [
-		{
-			"title" : "To-do-app",
-			"description" : "Let you do all that much more efficiently,dragging and dropping tasks to reorder them,changing a priority or due date with one click",
-			"framework" : "ajs",
-			"image" : "todo"
-		}
-	]
-}
+[
+	{
+		"title" : "To-do-app",
+		"description" : "Let you do all that much more efficiently,dragging and dropping tasks to reorder them,changing a priority or due date with one click",
+		"framework" : "ajs",
+		"image" : "todo"
+	},
+	{
+		"title" : "To-do-app",
+		"description" : "Let you do all that much more efficiently,dragging and dropping tasks to reorder them,changing a priority or due date with one click",
+		"framework" : "ajs",
+		"image" : "todo"
+	}
+]
